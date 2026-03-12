@@ -16,4 +16,8 @@ void input (){      //Membuat fungsi bernama input. void berarti fungsi tidak me
             cout << "\nArray Tidak Boleh Lebih dari 20\n";  //Jika n lebih dari 20, program menampilkan pesan
         }                                                   //Setelah itu program kembali ke awal while dan meminta input lagi
     }
+    cout << endl;   //Membuat baris kosong
+    cout << "=============================================";
+    cout << "============Masukkan Element Array===========";
+    cout << "=============================================";
 }
