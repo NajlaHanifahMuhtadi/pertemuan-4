@@ -20,4 +20,9 @@ void input (){      //Membuat fungsi bernama input. void berarti fungsi tidak me
     cout << "=============================================";
     cout << "============Masukkan Element Array===========";
     cout << "=============================================";
+
+    for (int i = 0; i < n; i++ ){       //Membuat perulangan (loop). int i = 0 → variabel penghitung dimulai dari 0. i < n → perulangan berjalan selama i masih kurang dari n
+        cout << "Data ke-" << (i+1) << " : ";   //(i+1) digunakan supaya nomor data dimulai dari 1, bukan dari 0.
+        cin >> arr[i];      //Nilai yang dimasukkan disimpan ke array pada indeks ke-i.
+    }
 }
